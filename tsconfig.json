@@ -9,36 +9,27 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "target": "es2021",
-    "lib": ["ES2021"],
+    "lib": [
+      "ES2021"
+    ],
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "build",
     "baseUrl": "src",
-    "typeRoots": ["src/infrastructure/types", "node_modules/@types"],
+    "typeRoots": [
+      "src/infrastructure/types",
+      "node_modules/@types"
+    ],
     "useUnknownInCatchVariables": false,
     "paths": {
-      "*": ["*", "node_modules/*", "src/*"]
+      "*": [
+        "*",
+        "node_modules/*",
+        "src/*"
+      ]
     },
-    "plugins": [
-      {
-        "transform": "./node_modules/@neofinancial/neo-framework/build/codegen/transformers/provider-transformer.js"
-      },
-      {
-        "transform": "./node_modules/@neofinancial/neo-framework/build/codegen/transformers/repository-transformer.js"
-      },
-      {
-        "transform": "./node_modules/@neofinancial/neo-framework/build/codegen/transformers/consumer-transformer.js"
-      },
-      {
-        "transform": "./node_modules/@neofinancial/neo-framework/build/codegen/transformers/repository-hook-transformer.js"
-      },
-      {
-        "transform": "./node_modules/@neofinancial/neo-framework/build/codegen/transformers/producer-transformer.js"
-      },
-      {
-        "transform": "./node_modules/@neofinancial/neo-framework/build/codegen/transformers/job-transformer.js"
-      }
-    ]
   },
-  "include": ["src/**/*"]
+  "include": [
+    "src/**/*"
+  ]
 }
