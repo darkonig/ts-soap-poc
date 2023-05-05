@@ -1,0 +1,10 @@
+**/build
+**/node_modules
+
+**/types/schema.d.ts
+
+scripts
+*.config.js
+config*.js
+.eslintrc.js
+jest-mongodb-config.js

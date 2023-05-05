@@ -1,0 +1,4 @@
+
+/** Context */
+export interface Context {
+}

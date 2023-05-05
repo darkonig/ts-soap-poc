@@ -1,0 +1,4 @@
+
+/** GetIndustries */
+export interface GetIndustries {
+}

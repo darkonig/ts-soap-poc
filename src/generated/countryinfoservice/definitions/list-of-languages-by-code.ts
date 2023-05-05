@@ -1,0 +1,4 @@
+
+/** ListOfLanguagesByCode */
+export interface ListOfLanguagesByCode {
+}

@@ -1,0 +1,4 @@
+
+/** ListOfContinentsByCode */
+export interface ListOfContinentsByCode {
+}

@@ -1,0 +1,4 @@
+
+/** ListOfCountryNamesByName */
+export interface ListOfCountryNamesByName {
+}

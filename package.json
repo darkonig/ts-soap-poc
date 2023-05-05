@@ -1,0 +1,38 @@
+{
+  "name": "ts-soap-poc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is example how to generated and use soap client using wsdl-tsclient",
+  "main": "index.ts",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.17.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "wsdl-tsclient --verbose --modelPropertyNaming PascalCase --kebabFileName --deduplicateSoapMethods -o ./src/generated ./resources/*.wsdl",
+    "start": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkonig/ts-soap-poc.git"
+  },
+  "keywords": [],
+  "author": "Caio Andrade",
+  "license": "MIT ",
+  "homepage": "https://github.com/darkonig/ts-soap-poc#readme",
+  "devDependencies": {
+    "@darkonig/wsdl-tsclient": "^1.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.39.0",
+    "eslint-config-neo": "^0.7.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "soap": "^1.0.0"
+  }
+}

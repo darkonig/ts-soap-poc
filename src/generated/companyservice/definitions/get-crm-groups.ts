@@ -1,0 +1,4 @@
+
+/** GetCRMGroups */
+export interface GetCrmGroups {
+}

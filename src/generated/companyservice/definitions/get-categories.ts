@@ -1,0 +1,4 @@
+
+/** GetCategories */
+export interface GetCategories {
+}

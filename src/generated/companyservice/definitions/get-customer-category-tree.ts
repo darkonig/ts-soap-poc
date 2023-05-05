@@ -1,0 +1,4 @@
+
+/** GetCustomerCategoryTree */
+export interface GetCustomerCategoryTree {
+}

@@ -1,0 +1,4 @@
+
+/** GetTaxCodeList */
+export interface GetTaxCodeList {
+}

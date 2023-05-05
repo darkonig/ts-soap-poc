@@ -1,0 +1,16 @@
+node_modules
+build
+
+config.local.*
+**/manual-scripts/*.json
+
+*.log
+.vscode
+.env.local
+.idea
+.DS_Store
+.eslintcache
+
+*.swp
+*.swo
+dummy_taran_data.json

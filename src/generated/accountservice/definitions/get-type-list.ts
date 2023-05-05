@@ -1,0 +1,4 @@
+
+/** GetTypeList */
+export interface GetTypeList {
+}

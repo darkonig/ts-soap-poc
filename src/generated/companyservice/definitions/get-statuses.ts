@@ -1,0 +1,4 @@
+
+/** GetStatuses */
+export interface GetStatuses {
+}
